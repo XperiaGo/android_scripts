@@ -1,22 +1,19 @@
 android_scripts
 ===============
 
-Helpful scripts for build Android Open Source Project
+Helpful scripts for build CM11
 
 QuickStart:
 
-    git clone https://github.com/AndroidOpenSourceXperia/android_scripts.git aosx;
+    git clone https://github.com/XperiaSTE/android_scripts.git cm-11.0;
     cd aosx;
-    repo init -u https://android.googlesource.com/platform/manifest -b android-4.4.2_r2;
+    repo init -u git://github.com/CyanogenMod/android -b cm-11.0;
     ./Update.sh;
-    ./CompileROM.sh -u; (Xperia U)
-    ./CompileROM.sh -p; (Xperia P)   
-    ./CompileROM.sh -s; (Xperia Sola)
-    ./CompileROM.sh -g; (Xperia Go) 
+    ./CompileROM.sh
     
 Credits:
     
     @munjeni: Kernel, porting Android Kitkat to Xperia 2012 devices and bugfix
     @DevSwift: Develop on Xperia 2012 devices and bugfix
-    @percy-g2: Support and bugfix
-    @Andrewas: Stable repository mantainer and support
+    @AOSX: Port Android Open Source Project to Xperia 2012
+    @XperiaSTE: Update and maintain CyanogenMod 11 for Xperia U
