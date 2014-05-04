@@ -9,6 +9,8 @@
 
   <remove-project name="CyanogenMod/android_packages_apps_CMUpdater" />
   <remove-project name="CyanogenMod/android_packages_apps_Settings" />
+  <remove-project name="CyanogenMod/android_packages_apps_Bluetooth" />
+  <remove-project name="CyanogenMod/android_packages_apps_BluetoothExt" />
   <remove-project name="CyanogenMod/android_build" />
   <remove-project name="CyanogenMod/android_bionic" />
   <remove-project name="CyanogenMod/android_bootable_recovery" />
@@ -40,5 +42,6 @@
   <project path="hardware/libhardware" name="XperiaSTE/android_hardware_libhardware" />
   <project path="hardware/libhardware_legacy" name="XperiaSTE/android_hardware_libhardware_legacy" />
   <project path="system/core" name="XperiaSTE/android_system_core" />
+  <project path="packages/apps/Bluetooth" name="AndroidOpenSourceXperia/android_packages_apps_Bluetooth" revision="master" />
   
 </manifest>
