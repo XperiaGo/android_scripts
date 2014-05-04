@@ -2,7 +2,7 @@
 <manifest>
 
   <remove-project name="CyanogenMod/android_packages_apps_CMUpdater" />
-  <project path="packages/apps/OTAUpdater" name="XperiaSTE/ota-update-centre" />
+  <project path="packages/apps/OTAUpdater" name="XperiaSTE/android_packages_apps_OTAUpdater" />
   <project path="devices/sony/kumquat" name="XperiaSTE/android_device_sony_kumquat" />
   <project path="hardware/semc" name="XperiaSTE/android_hardware_semc" />
   <project path="kernel/sony/u8500" name="XperiaSTE/android_kernel_sony_u8500" />
