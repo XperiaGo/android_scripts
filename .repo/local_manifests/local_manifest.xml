@@ -8,6 +8,7 @@
           fetch="https://code.google.com/p/" />
 
   <remove-project name="CyanogenMod/android_packages_apps_CMUpdater" />
+  <remove-project name="CyanogenMod/android_packages_apps_Settings" />
   <remove-project name="CyanogenMod/android_build" />
   <remove-project name="CyanogenMod/android_bionic" />
   <remove-project name="CyanogenMod/android_bootable_recovery" />
@@ -19,6 +20,7 @@
   <remove-project name="CyanogenMod/android_hardware_libhardware_legacy" />
   <remove-project name="CyanogenMod/android_system_core" />
   <project path="packages/apps/OTAUpdater" name="XperiaSTE/android_packages_apps_OTAUpdater" />
+  <project path="packages/apps/Settings" name="XperiaSTE/android_packages_apps_Settings" />
   <project path="devices/sony/kumquat" name="XperiaSTE/android_device_sony_kumquat" />
   <project path="hardware/ste-sony" name="XperiaSTE/android_hardware_ste-sony" />
   <project path="kernel/sony/u8500" name="XperiaSTE/android_kernel_sony_u8500" />
@@ -36,5 +38,5 @@
   <project path="hardware/libhardware" name="XperiaSTE/android_hardware_libhardware" />
   <project path="hardware/libhardware_legacy" name="XperiaSTE/android_hardware_libhardware_legacy" />
   <project path="system/core" name="XperiaSTE/android_system_core" />
-
+  
 </manifest>
