@@ -29,7 +29,7 @@
   <project path="hardware/ste-sony" name="XperiaSTE/android_hardware_ste-sony" />
   <project path="kernel/sony/u8500" name="XperiaSTE/android_kernel_sony_u8500" />
   <project path="vendor/sony" name="CMXperia/android_vendor_sony" />
-
+  <project path="prebuilt/gcc/linux-x86/arm/arm-eabi-4.7" name="platform/prebuilts/gcc/linux-x86/arm/arm-eabi-4.7" groups="pdk,linux,arm" remote="aosp" revision="refs/tags/android-4.4.2_r2" />
   <project path="build" name="XperiaSTE/android_build" />
   <project path="bionic" name="XperiaSTE/android_bionic" />
   <project path="bootable/recovery" name="XperiaSTE/android_bootable_recovery" />
