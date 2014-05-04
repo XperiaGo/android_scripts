@@ -22,7 +22,6 @@
 
   <project path="packages/apps/OTAUpdater" name="XperiaSTE/android_packages_apps_OTAUpdater" />
   <project path="packages/apps/Settings" name="XperiaSTE/android_packages_apps_Settings" />
-  <project path="devices/sony/kumquat" name="XperiaSTE/android_device_sony_kumquat" />
   <project path="device/sony/kumquat" name="CMXperia/android_device_sony_kumquat" />
   <project path="device/sony/montblanc-common" name="CMXperia/android_device_sony_montblanc-common" />
   <project path="hardware/ste-sony" name="XperiaSTE/android_hardware_ste-sony" />
