@@ -1,11 +1,40 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
+  <remote name="kernel"
+          fetch="git://git.kernel.org/pub/scm/" />
+
+  <remote name="googlecode"
+          fetch="https://code.google.com/p/" />
+
   <remove-project name="CyanogenMod/android_packages_apps_CMUpdater" />
+  <remove-project name="CyanogenMod/android_build" />
+  <remove-project name="CyanogenMod/android_bionic" />
+  <remove-project name="CyanogenMod/android_bootable_recovery" />
+  <remove-project name="CyanogenMod/android_external_bluetooth_bluedroid" />
+  <remove-project name="CyanogenMod/android_frameworks_av" />
+  <remove-project name="CyanogenMod/android_frameworks_base" />
+  <remove-project name="CyanogenMod/android_frameworks_native" />
+  <remove-project name="CyanogenMod/android_hardware_libhardware" />
+  <remove-project name="CyanogenMod/android_hardware_libhardware_legacy" />
+  <remove-project name="CyanogenMod/android_system_core" />
   <project path="packages/apps/OTAUpdater" name="XperiaSTE/android_packages_apps_OTAUpdater" />
   <project path="devices/sony/kumquat" name="XperiaSTE/android_device_sony_kumquat" />
-  <project path="hardware/semc" name="XperiaSTE/android_hardware_semc" />
+  <project path="hardware/ste-sony" name="XperiaSTE/android_hardware_ste-sony" />
   <project path="kernel/sony/u8500" name="XperiaSTE/android_kernel_sony_u8500" />
   <project path="vendor/sony/kumquat" name="XperiaSTE/proprietary_vendor_sony" />
+
+  <project path="build" name="XperiaSTE/android_build" />
+  <project path="bionic" name="XperiaSTE/android_bionic" />
+  <project path="bootable/recovery" name="XperiaSTE/android_bootable_recovery" />
+  <project path="external/bluetooth/bluez" name="XperiaSTE/android_external_bluetooth_bluez" />
+  <project path="external/bluetooth/sbc" name="bluetooth/sbc" remote="kernel"     revision="master" groups="pdk" />
+  <project path="external/bluetooth/glib" name="aosp-bluez.glib" remote="googlecode" revision="master" groups="pdk" />
+  <project path="frameworks/av" name="XperiaSTE/android_frameworks_av" />
+  <project path="frameworks/base" name="XperiaSTE/android_frameworks_native" />
+  <project path="frameworks/native" name="XperiaSTE/android_frameworks_base" />
+  <project path="hardware/libhardware" name="XperiaSTE/android_hardware_libhardware" />
+  <project path="hardware/libhardware_legacy" name="XperiaSTE/android_hardware_libhardware_legacy" />
+  <project path="system/core" name="XperiaSTE/android_system_core" />
 
 </manifest>
