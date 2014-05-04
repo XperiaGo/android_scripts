@@ -9,8 +9,13 @@ QuickStart:
     cd aosx;
     repo init -u git://github.com/CyanogenMod/android -b cm-11.0;
     ./Update.sh;
+    ./OTAConfig.sh
     ./CompileROM.sh
-    
+
+OTA Updater:
+
+	If you want use OTA Updater and OTAConfig.sh script go on OTA Update Center website > https://www.otaupdatecenter.pro/
+
 Credits:
     
     @munjeni: Kernel, porting Android Kitkat to Xperia 2012 devices and bugfix
