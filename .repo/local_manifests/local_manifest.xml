@@ -19,12 +19,15 @@
   <remove-project name="CyanogenMod/android_hardware_libhardware" />
   <remove-project name="CyanogenMod/android_hardware_libhardware_legacy" />
   <remove-project name="CyanogenMod/android_system_core" />
+
   <project path="packages/apps/OTAUpdater" name="XperiaSTE/android_packages_apps_OTAUpdater" />
   <project path="packages/apps/Settings" name="XperiaSTE/android_packages_apps_Settings" />
   <project path="devices/sony/kumquat" name="XperiaSTE/android_device_sony_kumquat" />
+  <project path="device/sony/kumquat" name="CMXperia/android_device_sony_kumquat" />
+  <project path="device/sony/montblanc-common" name="CMXperia/android_device_sony_montblanc-common" />
   <project path="hardware/ste-sony" name="XperiaSTE/android_hardware_ste-sony" />
   <project path="kernel/sony/u8500" name="XperiaSTE/android_kernel_sony_u8500" />
-  <project path="vendor/sony/kumquat" name="XperiaSTE/proprietary_vendor_sony" />
+  <project path="vendor/sony" name="CMXperia/android_vendor_sony" />
 
   <project path="build" name="XperiaSTE/android_build" />
   <project path="bionic" name="XperiaSTE/android_bionic" />
