@@ -20,5 +20,7 @@ Credits:
     
     @munjeni: Kernel, porting Android Kitkat to Xperia 2012 devices and bugfix
     @DevSwift: Develop on Xperia 2012 devices and bugfix
+    @percy-g2: Support and bugfix
+    @Andrewas: Stable repository mantainer and support
     @AOSX: Port Android Open Source Project to Xperia 2012
     @XperiaSTE: Update and maintain CyanogenMod 11 for Xperia U
