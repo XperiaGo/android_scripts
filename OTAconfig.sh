@@ -9,12 +9,12 @@ read buildname
 echo "========================="
 echo "Enter date of $buildname like 20140504-1337 (YearMonthDay-HourMinutes)"
 read builddate
-sed -i 's/^\(otaupdater.otaid=\).*/\1'"$buildid"'/' device/sony/kumquat/system.prop
-sed -i 's/^\(otaupdater.otaver=\).*/\1'"$buildname"'/' device/sony/kumquat/system.prop
-sed -i 's/^\(otaupdater.otatime=\).*/\1'"$builddate"'/' device/sony/kumquat/system.prop
+sed -i 's/^\(    otaupdater.otaid=\).*/\1'"$buildid"'/' device/sony/kumquat/kumquat.mk
+sed -i 's/^\(    otaupdater.otaver=\).*/\1'"$buildname"'/' device/sony/kumquat/kumquat.mk
+sed -i 's/^\(    otaupdater.otatime=\).*/\1'"$builddate"'/' device/sony/kumquat/kumquat.mk
 echo "========================="
 echo "OTA Updated values writed on kumquat.mk:"
-sed -n '/otaupdater.otaid=/p' device/sony/kumquat/system.prop
-sed -n '/otaupdater.otaver=/p' device/sony/kumquat/system.prop
-sed -n '/otaupdater.otatime=/p' device/sony/kumquat/system.prop
+sed -n '/otaupdater.otaid=/p' device/sony/kumquat/kumquat.mk
+sed -n '/otaupdater.otaver=/p' device/sony/kumquat/kumquat.mk
+sed -n '/otaupdater.otatime=/p' device/sony/kumquat/kumquat.mk
 echo "========================="
