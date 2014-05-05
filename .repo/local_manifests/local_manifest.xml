@@ -25,6 +25,7 @@
   <project path="packages/apps/OTAUpdater" name="XperiaSTE/android_packages_apps_OTAUpdater" />
   <project path="packages/apps/Settings" name="XperiaSTE/android_packages_apps_Settings" />
   <project path="device/sony/kumquat" name="XperiaSTE/android_device_sony_kumquat" />
+  <project path="device/sony/nypon" name="XperiaSTE/android_device_sony_nypon" />
   <project path="device/sony/montblanc-common" name="XperiaSTE/android_device_sony_montblanc-common" />
   <project path="hardware/ste-sony" name="XperiaSTE/android_hardware_ste-sony" />
   <project path="kernel/sony/u8500" name="XperiaSTE/android_kernel_sony_u8500" />
