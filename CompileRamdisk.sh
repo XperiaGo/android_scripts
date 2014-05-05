@@ -1,5 +1,4 @@
 #Compile
-cd vendor/cm && ./get-prebuilts && cd ../..
 if [[ $# = 1 ]]; then
   . build/envsetup.sh
   if [[ $? = 0 ]]; then
