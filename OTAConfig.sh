@@ -28,6 +28,7 @@ do
 			sed -n '/otaupdater.otaver=/p' device/sony/kumquat/kumquat.mk
 			sed -n '/otaupdater.otatime=/p' device/sony/kumquat/kumquat.mk
 			echo "========================================"
+			break
             ;;
         "Xperia P")
 			echo "========================================"
@@ -50,6 +51,7 @@ do
 			sed -n '/otaupdater.otaver=/p' device/sony/nypon/nypon.mk
 			sed -n '/otaupdater.otatime=/p' device/sony/nypon/nypon.mk
 			echo "========================================"
+			break
             ;;
         "Xperia Sola")
 			echo "========================================"
@@ -72,6 +74,7 @@ do
 			sed -n '/otaupdater.otaver=/p' device/sony/pepper/pepper.mk
 			sed -n '/otaupdater.otatime=/p' device/sony/pepper/pepper.mk
 			echo "========================================"
+			break
             ;;
         "Xperia Go")
 			echo "========================================"
@@ -93,6 +96,7 @@ do
 			sed -n '/otaupdater.otaver=/p' device/sony/lotus/lotus.mk
 			sed -n '/otaupdater.otatime=/p' device/sony/lotus/lotus.mk
 			echo "========================================"
+			break
             ;;
         "Quit")
             break
