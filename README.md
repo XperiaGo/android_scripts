@@ -29,4 +29,4 @@ Credits:
     @CyanogenMod: For CM-11
     @XperiaNovathor: For maintaining repos of kumquat
     @Legacy-Xperia: For updated patches and device trees
-    @XperiaSTE: Update and maintain CyanogenMod 11 for Xperia U
+    @XperiaSTE: Update and maintain CyanogenMod 11 for Xperia 2012
