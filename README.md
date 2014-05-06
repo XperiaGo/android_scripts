@@ -9,6 +9,7 @@ QuickStart:
     cd xste;
     repo init -u git://github.com/CyanogenMod/android -b cm-11.0;
     ./Update.sh;
+    ./OTAConfig.sh;
     ./CompileROM.sh -u; (Xperia U)
     ./CompileROM.sh -p; (Xperia P)   
     ./CompileROM.sh -s; (Xperia Sola)
