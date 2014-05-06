@@ -1,7 +1,6 @@
 #Get prebuilts
 echo "Getting prebuilts..."
 cd vendor/cm && ./get-prebuilts && cd ../..
-./OTAConfig.sh
 #Compile
 if [[ $# = 1 ]]; then
   . build/envsetup.sh
