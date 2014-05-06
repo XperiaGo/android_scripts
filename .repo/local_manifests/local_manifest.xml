@@ -22,7 +22,7 @@
   <remove-project name="CyanogenMod/android_hardware_libhardware_legacy" />
   <remove-project name="CyanogenMod/android_system_core" />
 
-  <project path="packages/apps/OTAUpdater" name="XperiaSTE/android_packages_apps_OTAUpdater" />
+  <project path="packages/apps/OTAUpdater" name="XperiaSTE/android_packages_apps_OTAUpdater" revision="cm-11.0"  />
   <project path="packages/apps/Settings" name="XperiaSTE/android_packages_apps_Settings" />
   <project path="device/sony/kumquat" name="XperiaSTE/android_device_sony_kumquat" />
   <project path="device/sony/nypon" name="XperiaSTE/android_device_sony_nypon" />
