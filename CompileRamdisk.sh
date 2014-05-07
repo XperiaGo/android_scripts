@@ -9,16 +9,16 @@ if [[ $# = 1 ]]; then
     fi
     case $1 in
     -u)
-      lunch cm_kumquat-eng && make -j12 bootimage;
+      lunch cm_kumquat-eng && make bootimage;
     ;;
     -p)
-      lunch cm_nypon-eng && make -j12 bootimage;
+      lunch cm_nypon-eng && make bootimage;
     ;;
     -s)
-      lunch cm_pepper-eng && make -j12 bootimage;
+      lunch cm_pepper-eng && make bootimage;
     ;;
     -g)
-      lunch cm_lotus-eng && make -j12 bootimage;
+      lunch cm_lotus-eng && make bootimage;
     ;;
     *)
       echo "ERROR: Unknow option";
