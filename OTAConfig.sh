@@ -1,5 +1,5 @@
 echo "========================================"
-echo "OTA Updater Configuration (for Xperia U)"
+echo "OTA Updater Configuration (for Xperia U / P / Sola / Go)"
 echo "========================================"
 
 PS3='Select the device on which you want to configure OTA: '
