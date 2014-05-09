@@ -33,7 +33,9 @@
   <project path="kernel/sony/u8500" name="XperiaSTE/android_kernel_sony_u8500" />
   <project path="vendor/sony" name="XperiaSTE/android_vendor_sony" />
   <project path="prebuilt/linux-x86/toolchain/arm-eabi-4.7" name="platform/prebuilts/gcc/linux-x86/arm/arm-eabi-4.7" groups="pdk,linux,arm" remote="aosp" revision="refs/tags/android-4.4.2_r2" />
-  <project path="build" name="XperiaSTE/android_build" />
+  <project path="build" name="XperiaSTE/android_build" >
+  <copyfile src="core/root.mk" dest="Makefile" />
+  </project>
   <project path="bionic" name="XperiaSTE/android_bionic" />
   <project path="bootable/recovery" name="XperiaSTE/android_bootable_recovery" />
   <project path="external/bluetooth/bluez" name="XperiaSTE/android_external_bluetooth_bluez" />
