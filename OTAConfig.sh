@@ -11,7 +11,7 @@ do
 			echo "========================================"
 			echo "Xperia U selected !"
 			echo "========================================"
-            echo "Enter build ID like XperiaSTECM11 for Xperia STE Team (don't use special characters, - _ , spaces, etc... )"
+			echo "Enter build ID like XperiaSTECM11 for Xperia STE Team (don't use special characters, - _ , spaces, etc... )"
 			read buildid
 			echo "========================================"
 			echo "Enter name of the build (otaupdater.otaver) like Build2 or Pre2Build7 (don't use special characters, - _ , spaces, etc... )"
@@ -34,7 +34,7 @@ do
 			echo "========================================"
 			echo "Xperia P selected !"
 			echo "========================================"
-            echo "Enter build ID like XperiaSTECM11 for Xperia STE Team (don't use special characters, - _ , spaces, etc... )"
+			echo "Enter build ID like XperiaSTECM11 for Xperia STE Team (don't use special characters, - _ , spaces, etc... )"
 			read buildid
 			echo "========================================"
 			echo "Enter name of the build (otaupdater.otaver) like Build2 or Pre2Build7 (don't use special characters, - _ , spaces, etc... )"
@@ -57,7 +57,7 @@ do
 			echo "========================================"
 			echo "Xperia Sola selected !"
 			echo "========================================"
-            echo "Enter build ID like XperiaSTECM11 for Xperia STE Team (don't use special characters, - _ , spaces, etc... )"
+			echo "Enter build ID like XperiaSTECM11 for Xperia STE Team (don't use special characters, - _ , spaces, etc... )"
 			read buildid
 			echo "========================================"
 			echo "Enter name of the build (otaupdater.otaver) like Build2 or Pre2Build7 (don't use special characters, - _ , spaces, etc... )"
@@ -79,7 +79,8 @@ do
         "Xperia Go")
 			echo "========================================"
 			echo "Xperia Go selected !"
-			echo "========================================"            echo "Enter build ID like XperiaSTECM11 for Xperia STE Team (don't use special characters, - _ , spaces, etc... )"
+			echo "========================================"
+			echo "Enter build ID like XperiaSTECM11 for Xperia STE Team (don't use special characters, - _ , spaces, etc... )"
 			read buildid
 			echo "========================================"
 			echo "Enter name of the build (otaupdater.otaver) like Build2 or Pre2Build7 (don't use special characters, - _ , spaces, etc... )"
