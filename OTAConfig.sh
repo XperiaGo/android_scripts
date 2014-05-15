@@ -23,7 +23,7 @@ do
 			sed -i 's/^\(.*otaupdater.otaver=\).*/\1'"$buildname"'/' device/sony/kumquat/kumquat.mk
 			sed -i 's/^\(.*otaupdater.otatime=\).*/\1'"$builddate"'/' device/sony/kumquat/kumquat.mk
 			echo "========================================"
-			echo "OTA Updated values writed on kumquat.mk:"
+			echo "OTA Updated values written on kumquat.mk:"
 			sed -n '/otaupdater.otaid=/p' device/sony/kumquat/kumquat.mk
 			sed -n '/otaupdater.otaver=/p' device/sony/kumquat/kumquat.mk
 			sed -n '/otaupdater.otatime=/p' device/sony/kumquat/kumquat.mk
@@ -46,7 +46,7 @@ do
 			sed -i 's/^\(.*otaupdater.otaver=\).*/\1'"$buildname"'/' device/sony/nypon/nypon.mk
 			sed -i 's/^\(.*otaupdater.otatime=\).*/\1'"$builddate"'/' device/sony/nypon/nypon.mk
 			echo "========================================"
-			echo "OTA Updated values writed on nypon.mk:"
+			echo "OTA Updated values written on nypon.mk:"
 			sed -n '/otaupdater.otaid=/p' device/sony/nypon/nypon.mk
 			sed -n '/otaupdater.otaver=/p' device/sony/nypon/nypon.mk
 			sed -n '/otaupdater.otatime=/p' device/sony/nypon/nypon.mk
@@ -69,7 +69,7 @@ do
 			sed -i 's/^\(.*otaupdater.otaver=\).*/\1'"$buildname"'/' device/sony/pepper/pepper.mk
 			sed -i 's/^\(.*otaupdater.otatime=\).*/\1'"$builddate"'/' device/sony/pepper/pepper.mk
 			echo "========================================"
-			echo "OTA Updated values writed on pepper.mk:"
+			echo "OTA Updated values written on pepper.mk:"
 			sed -n '/otaupdater.otaid=/p' device/sony/pepper/pepper.mk
 			sed -n '/otaupdater.otaver=/p' device/sony/pepper/pepper.mk
 			sed -n '/otaupdater.otatime=/p' device/sony/pepper/pepper.mk
@@ -92,7 +92,7 @@ do
 			sed -i 's/^\(.*otaupdater.otaver=\).*/\1'"$buildname"'/' device/sony/lotus/lotus.mk
 			sed -i 's/^\(.*otaupdater.otatime=\).*/\1'"$builddate"'/' device/sony/lotus/lotus.mk
 			echo "========================================"
-			echo "OTA Updated values writed on lotus.mk:"
+			echo "OTA Updated values written on lotus.mk:"
 			sed -n '/otaupdater.otaid=/p' device/sony/lotus/lotus.mk
 			sed -n '/otaupdater.otaver=/p' device/sony/lotus/lotus.mk
 			sed -n '/otaupdater.otatime=/p' device/sony/lotus/lotus.mk
