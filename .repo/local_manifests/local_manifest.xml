@@ -22,7 +22,7 @@
   <remove-project name="CyanogenMod/android_hardware_libhardware" />
   <remove-project name="CyanogenMod/android_hardware_libhardware_legacy" />
   <remove-project name="CyanogenMod/android_system_core" />
-  <remove-project name="platform/art" /> 
+  <remove-project name="art" /> 
   <remove-project name="platform/frameworks/rs" />
   <remove-project name="platform/prebuilts/gcc/linux-x86/arm/arm-eabi-4.7" />
   <remove-project name="platform/prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.7" />
