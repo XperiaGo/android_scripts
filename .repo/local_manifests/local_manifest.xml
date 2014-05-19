@@ -58,4 +58,6 @@
   <project path="art" name="XperiaSTE/android_art" />
   <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.8" name="JustArchi/Linaro" revision="4.8-eabi" />
   <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.8" name="JustArchi/Linaro" revision="4.8-androideabi" />
+  <project path="prebuilt/linux-x86/toolchain" name="Christopher83/linaro_toolchains_2014" revision="2014.05" />
+
 </manifest>
