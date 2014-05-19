@@ -22,6 +22,10 @@
   <remove-project name="CyanogenMod/android_hardware_libhardware" />
   <remove-project name="CyanogenMod/android_hardware_libhardware_legacy" />
   <remove-project name="CyanogenMod/android_system_core" />
+  <remove-project name="platform/art" /> 
+  <remove-project name="platform/frameworks/rs" />
+  <remove-project name="platform/prebuilts/gcc/linux-x86/arm/arm-eabi-4.7" />
+  <remove-project name="platform/prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.7" />
 
   <project path="packages/apps/OTAUpdater" name="XperiaSTE/android_packages_apps_OTAUpdater" />
   <project path="packages/apps/Settings" name="XperiaSTE/android_packages_apps_Settings" />
@@ -46,9 +50,12 @@
   <project path="frameworks/av" name="XperiaSTE/android_frameworks_av" />
   <project path="frameworks/native" name="XperiaSTE/android_frameworks_native" />
   <project path="frameworks/base" name="XperiaSTE/android_frameworks_base" />
+  <project path="frameworks/rs" name="XperiaSTE/android_frameworks_rs" revision="cm-11.0" />
   <project path="hardware/libhardware" name="XperiaSTE/android_hardware_libhardware" />
   <project path="hardware/libhardware_legacy" name="XperiaSTE/android_hardware_libhardware_legacy" />
   <project path="system/core" name="XperiaSTE/android_system_core" />
   <project path="packages/apps/Bluetooth" name="XperiaSTE/android_packages_apps_Bluetooth" revision="master" />
-  
+  <project path="art" name="XperiaSTE/android_art" />
+  <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.8" name="JustArchi/Linaro" revision="4.8-eabi" />
+  <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.8" name="JustArchi/Linaro" revision="4.8-androideabi" />
 </manifest>
