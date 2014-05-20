@@ -17,6 +17,7 @@
   <remove-project name="CyanogenMod/android_bootable_recovery" />
   <remove-project name="CyanogenMod/android_external_bluetooth_bluedroid" />
   <remove-project name="CyanogenMod/android_external_ebtables" />
+  <remove-project name="CyanogenMod/android_external_valgrind" />
   <remove-project name="CyanogenMod/android_frameworks_av" />
   <remove-project name="CyanogenMod/android_frameworks_base" />
   <remove-project name="CyanogenMod/android_frameworks_native" />
@@ -37,7 +38,6 @@
   <project path="hardware/ste-sony" name="XperiaSTE/android_hardware_ste-sony" />
   <project path="kernel/sony/u8500" name="XperiaSTE/android_kernel_sony_u8500" />
   <project path="vendor/sony" name="XperiaSTE/android_vendor_sony" />
-  <project path="prebuilt/linux-x86/toolchain/arm-eabi-4.7" name="platform/prebuilts/gcc/linux-x86/arm/arm-eabi-4.7" groups="pdk,linux,arm" remote="aosp" revision="refs/tags/android-4.4.2_r2" />
   <project path="build" name="XperiaSTE/android_build" >
   <copyfile src="core/root.mk" dest="Makefile" />
   </project>
@@ -59,5 +59,5 @@
   <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.8" name="JustArchi/Linaro" revision="4.8-eabi" />
   <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.8" name="JustArchi/Linaro" revision="4.8-androideabi" />
   <project path="prebuilt/linux-x86/toolchain" name="Christopher83/linaro_toolchains_2014" revision="2014.05" />
-
+  <project path="external/valgrind" name="XperiaSTE/android_external_valgrind" revision="cm-11.0" />
 </manifest>
