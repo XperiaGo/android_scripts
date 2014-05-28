@@ -11,14 +11,26 @@ if [[ $# = 1 ]]; then
     -u)
       lunch cm_kumquat-eng && make bootimage;
     ;;
+    -ru)
+      lunch cm_kumquat-userdebug && make bootimage;
+    ;;
     -p)
       lunch cm_nypon-eng && make bootimage;
+    ;;
+    -rp)
+      lunch cm_nypon-userdebug && make bootimage;
     ;;
     -s)
       lunch cm_pepper-eng && make bootimage;
     ;;
+    -rs)
+      lunch cm_pepper-userdebug && make bootimage;
+    ;;
     -g)
       lunch cm_lotus-eng && make bootimage;
+    ;;
+    -rg)
+      lunch cm_lotus-userdebug && make bootimage;
     ;;
     *)
       echo "ERROR: Unknow option";
