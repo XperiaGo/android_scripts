@@ -22,7 +22,6 @@
   <remove-project name="CyanogenMod/android_frameworks_av" />
   <remove-project name="CyanogenMod/android_frameworks_base" />
   <remove-project name="CyanogenMod/android_frameworks_native" />
-  <remove-project name="CyanogenMod/android_frameworks_rs" />
   <remove-project name="CyanogenMod/android_hardware_libhardware" />
   <remove-project name="CyanogenMod/android_hardware_libhardware_legacy" />
   <remove-project name="CyanogenMod/android_system_core" />
@@ -52,7 +51,6 @@
   <project path="frameworks/av" name="XperiaSTE/android_frameworks_av" />
   <project path="frameworks/native" name="XperiaSTE/android_frameworks_native" />
   <project path="frameworks/base" name="XperiaSTE/android_frameworks_base" />
-  <project path="frameworks/rs" name="XperiaSTE/android_frameworks_rs" revision="cm-11.0" />
   <project path="hardware/libhardware" name="XperiaSTE/android_hardware_libhardware" />
   <project path="hardware/libhardware_legacy" name="XperiaSTE/android_hardware_libhardware_legacy" />
   <project path="system/core" name="XperiaSTE/android_system_core" />
