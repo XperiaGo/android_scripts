@@ -18,6 +18,7 @@
   <remove-project name="CyanogenMod/android_bootable_recovery" />
   <remove-project name="CyanogenMod/android_external_bluetooth_bluedroid" />
   <remove-project name="CyanogenMod/android_external_ebtables" />
+  <remove-project name="CyanogenMod/android_external_f2fs-tools" />
   <remove-project name="CyanogenMod/android_external_valgrind" />
   <remove-project name="CyanogenMod/android_frameworks_av" />
   <remove-project name="CyanogenMod/android_frameworks_base" />
@@ -48,6 +49,7 @@
   <project path="external/bluetooth/ebtables" name="XperiaSTE/android_external_ebtables" />
   <project path="external/bluetooth/sbc" name="bluetooth/sbc" remote="kernel"     revision="master" groups="pdk" />
   <project path="external/bluetooth/glib" name="aosp-bluez.glib" remote="googlecode" revision="master" groups="pdk" />
+  <project path="external/f2fs-tools" name="XperiaSTE/android_external_f2fs-tools" />
   <project path="frameworks/av" name="XperiaSTE/android_frameworks_av" />
   <project path="frameworks/native" name="XperiaSTE/android_frameworks_native" />
   <project path="frameworks/base" name="XperiaSTE/android_frameworks_base" />
