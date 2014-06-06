@@ -32,6 +32,8 @@
   <project path="bionic" name="XperiaSTE/android_bionic" />
   <project path="bootable/recovery" name="XperiaSTE/android_bootable_recovery" />
   <project path="build" name="XperiaSTE/android_build" >
+  <copyfile src="core/root.mk" dest="Makefile" />
+  </project>
   <project path="device/sony/kumquat" name="XperiaSTE/android_device_sony_kumquat" />
   <project path="device/sony/lotus" name="XperiaSTE/android_device_sony_lotus" />
   <project path="device/sony/nypon" name="XperiaSTE/android_device_sony_nypon" />
@@ -53,8 +55,6 @@
   <project path="packages/apps/OTAUpdater" name="XperiaSTE/android_packages_apps_OTAUpdater" />
   <project path="packages/apps/Settings" name="XperiaSTE/android_packages_apps_Settings" />
   <project path="packages/inputmethods/LatinIME" name="XperiaSTE/android_packages_inputmethods_LatinIME" />
-  <copyfile src="core/root.mk" dest="Makefile" />
-  </project>
   <project path="prebuilt/linux-x86/toolchain" name="Christopher83/linaro_toolchains_2014" revision="2014.05" />
   <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.8" name="JustArchi/Linaro" revision="4.8-eabi" />
   <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.8" name="JustArchi/Linaro" revision="4.8-androideabi" />
