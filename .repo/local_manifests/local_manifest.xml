@@ -20,6 +20,7 @@
   <remove-project name="CyanogenMod/android_frameworks_native" />
   <remove-project name="CyanogenMod/android_hardware_libhardware" />
   <remove-project name="CyanogenMod/android_hardware_libhardware_legacy" />
+  <remove-project name="CyanogenMod/android_packages_apps_Bluetooth" />
   <remove-project name="CyanogenMod/android_packages_apps_BluetoothExt" />
   <remove-project name="CyanogenMod/android_packages_apps_CMUpdater" />
   <remove-project name="CyanogenMod/android_packages_apps_Settings" />
@@ -52,6 +53,7 @@
   <project path="hardware/libhardware_legacy" name="XperiaSTE/android_hardware_libhardware_legacy" />
   <project path="hardware/ste-sony" name="XperiaSTE/android_hardware_ste-sony" />
   <project path="kernel/sony/u8500" name="XperiaSTE/android_kernel_sony_u8500" />
+  <project path="packages/apps/Bluetooth" name="XperiaSTE/android_packages_apps_Bluetooth" />
   <project path="packages/apps/OTAUpdater" name="XperiaSTE/android_packages_apps_OTAUpdater" />
   <project path="packages/apps/Settings" name="XperiaSTE/android_packages_apps_Settings" />
   <project path="packages/inputmethods/LatinIME" name="XperiaSTE/android_packages_inputmethods_LatinIME" />
