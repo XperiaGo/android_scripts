@@ -12,7 +12,7 @@
   <remove-project name="CyanogenMod/android_bootable_recovery" />
   <remove-project name="CyanogenMod/android_build" />
   <remove-project name="CyanogenMod/android_external_bluetooth_bluedroid" />
-  <remove-project name="CyanogenMod/android_external_ebtables" />
+
   <remove-project name="CyanogenMod/android_external_f2fs-tools" />
   <remove-project name="CyanogenMod/android_external_valgrind" />
   <remove-project name="CyanogenMod/android_frameworks_av" />
@@ -44,7 +44,7 @@
   <project path="device/sony/pepper" name="XperiaSTE/android_device_sony_pepper" />
   <project path="device/sony/montblanc-common" name="XperiaSTE/android_device_sony_montblanc-common" />
   <project path="external/bluetooth/bluez" name="XperiaSTE/android_external_bluetooth_bluez" />
-  <project path="external/bluetooth/ebtables" name="XperiaSTE/android_external_ebtables" />
+
   <project path="external/bluetooth/glib" name="aosp-bluez.glib" remote="googlecode" revision="master" groups="pdk" />
   <project path="external/bluetooth/sbc" name="bluetooth/sbc" remote="kernel"     revision="master" groups="pdk" />
   <project path="external/f2fs-tools" name="XperiaSTE/android_external_f2fs-tools" />
