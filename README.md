@@ -10,12 +10,11 @@ Instructions for building CM11
     cd cm-11.0
     repo init -u git://github.com/CyanogenMod/android -b stable/cm-11.0
     ./Update.sh
-    ./OTAConfig.sh
     ./CompileROM.sh [ -u / -p / -g / -s ]
 
 ### OTA Updater:
 
-If you want to use OTA Updater and OTAConfig.sh script go to [OTA Update Center website](https://www.otaupdatecenter.pro/)
+If you want to use OTA Updater and OTAConfig script go to [OTA Update Center website](https://www.otaupdatecenter.pro/)
 
 ### Credits:
     
