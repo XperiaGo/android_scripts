@@ -1,9 +1,12 @@
-android_scripts
-===============
+Xperia STE
+==========
 
-Helpful scripts for build CM11
+![alt text](http://l.i4g.me/xperiaste_line-xdared.png "Logo")
 
-QuickStart:
+Instructions for building CM11
+---------------------------------
+
+### QuickStart:
 
     git clone https://github.com/XperiaSTE/android_scripts.git -b stable/cm-11.0 cm-11.0
     cd cm-11.0
@@ -12,18 +15,18 @@ QuickStart:
     ./OTAConfig.sh
     ./CompileROM.sh [ -u / -p / -g / -s ]
 
-OTA Updater:
+### OTA Updater:
 
-	If you want use OTA Updater and OTAConfig.sh script go on OTA Update Center website > https://www.otaupdatecenter.pro/
+If you want use OTA Updater and OTAConfig.sh script go on [OTA Update Center website](https://www.otaupdatecenter.pro/)
 
-Credits:
+### Credits:
     
-    @munjeni: Kernel, porting Android Kitkat to Xperia 2012 devices and bugfix
-    @DevSwift: Develop on Xperia 2012 devices and bugfix
-    @percy-g2: Support and bugfix
-    @Andrewas: Stable repository mantainer and support
-    @AOSX: Port Android Open Source Project to Xperia 2012
-    @CyanogenMod: For CM-11
-    @XperiaNovathor: For maintaining repos of kumquat
-    @Legacy-Xperia: For updated patches and device trees
-    @XperiaSTE: Update and maintain CyanogenMod 11 for Xperia 2012
+⋅⋅⋅@munjeni: For kernel, having ported Android KitKat to Xperia 2012 devices and bugfixing
+⋅⋅⋅@DevSwift: For developing on Xperia 2012 devices and bugfixing
+⋅⋅⋅@percy-g2: For his support and bugfixing
+⋅⋅⋅@Andrewas: For his stable repositories
+⋅⋅⋅@AOSX: For having ported Android Open Source Project to Xperia 2012
+⋅⋅⋅@CyanogenMod: For CyanogenMod 11
+⋅⋅⋅@XperiaNovathor: For maintaining repos of kumquat
+⋅⋅⋅@Legacy-Xperia: For updated patches and device trees
+⋅⋅⋅@XperiaSTE: Update and maintain CyanogenMod 11 for Xperia 2012
