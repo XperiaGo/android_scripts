@@ -9,15 +9,17 @@ QuickStart:
     cd xste;
     repo init -u git://github.com/CyanogenMod/android -b cm-11.0;
     ./Update.sh;
-    ./OTAConfig.sh;
+    ./ODConfig.sh;
     ./CompileROM.sh -u; (Xperia U)
     ./CompileROM.sh -p; (Xperia P)   
     ./CompileROM.sh -s; (Xperia Sola)
     ./CompileROM.sh -g; (Xperia Go) 
 
-OTA Updater:
+OpenDelta Updater:
 
-	If you want use OTA Updater and OTAConfig.sh script go on OTA Update Center website > https://www.otaupdatecenter.pro/
+	For OpenDelta Configurator: ./ODConfig.sh nextversionnumber; 
+	About the nextversionnumber you need to use future build version, not current build version.
+	If this build is 14, type 15 (./ODConfig.sh 15;) 
 
 Credits:
     
