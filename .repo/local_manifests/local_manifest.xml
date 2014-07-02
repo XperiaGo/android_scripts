@@ -53,7 +53,7 @@
   <project path="hardware/ste-sony" name="XperiaSTE/android_hardware_ste-sony" />
   <project path="kernel/sony/u8500" name="XperiaSTE/android_kernel_sony_u8500" />
   <project path="packages/apps/Bluetooth" name="XperiaSTE/android_packages_apps_Bluetooth" />
-  <project path="packages/apps/OpenDelta" name="XperiaSTE/android_packages_apps_OpenDelta" revision="master" />
+  <project path="packages/apps/OpenDelta" name="XperiaSTE/android_packages_apps_OpenDelta" />
   <project path="packages/apps/Settings" name="XperiaSTE/android_packages_apps_Settings" />
   <project path="packages/inputmethods/LatinIME" name="XperiaSTE/android_packages_inputmethods_LatinIME" />
   <project path="system/core" name="XperiaSTE/android_system_core" />
