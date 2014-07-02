@@ -12,9 +12,11 @@ Instructions for building CM11
     ./Update.sh
     ./CompileROM.sh [ -u / -p / -g / -s ]
 
-### OTA Updater:
+### OpenDelta Updater:
 
-If you want to use OTA Updater and OTAConfig script go to [OTA Update Center website](https://www.otaupdatecenter.pro/)
+For OpenDelta Configurator: ./ODConfig.sh nextversionnumber; 
+About the nextversionnumber you need to use future build version, not current build version.
+If this build is 14, type 15 (./ODConfig.sh 15;) 
 
 ### Credits:
     
