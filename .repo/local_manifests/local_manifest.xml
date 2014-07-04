@@ -60,7 +60,7 @@
   <project path="system/media" name="XperiaSTE/android_system_media" />
   <project path="system/vold" name="XperiaSTE/android_system_vold" />
   <project path="vendor/sony" name="XperiaSTE/android_vendor_sony" />
-  <project path="external/f2fs-tools" name="platform/external/f2fs-tools" remote="googlecode" revision="master" groups="pdk" />
+  <project path="external/f2fs-tools" name="platform/external/f2fs-tools" remote="aosp" revision="master" groups="pdk" />
   <project path="prebuilt/linux-x86/toolchain" name="Christopher83/linaro_toolchains_2014" revision="2014.06" />
   <project name="platform/prebuilts/gcc/linux-x86/arm/arm-eabi-4.8" path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.8" remote="aosp" revision="master" />
   <project name="platform/prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.8" path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.8" remote="aosp" revision="master" />
