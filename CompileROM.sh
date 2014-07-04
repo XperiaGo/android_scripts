@@ -12,28 +12,28 @@ if [[ $# = 1 ]]; then
     fi
     case $1 in
     -u)
-      lunch cm_kumquat-eng && make otapackage -j12;
+      lunch cm_kumquat-eng && make otapackage -j8;
     ;;
     -ru)
-      lunch cm_kumquat-userdebug && make otapackage -j12;
+      lunch cm_kumquat-userdebug && make otapackage -j8;
     ;;
     -p)
-      lunch cm_nypon-eng && make otapackage -j12;
+      lunch cm_nypon-eng && make otapackage -j8;
     ;;
     -rp)
-      lunch cm_nypon-userdebug && make otapackage -j12;
+      lunch cm_nypon-userdebug && make otapackage -j8;
     ;;
     -s)
-      lunch cm_pepper-eng && make otapackage -j12;
+      lunch cm_pepper-eng && make otapackage -j8;
     ;;
     -rs)
-      lunch cm_pepper-userdebug && make otapackage -j12;
+      lunch cm_pepper-userdebug && make otapackage -j8;
     ;;
     -g)
-      lunch cm_lotus-eng && make otapackage -j12;
+      lunch cm_lotus-eng && make otapackage -j8;
     ;;
     -rg)
-      lunch cm_lotus-userdebug && make otapackage -j12;
+      lunch cm_lotus-userdebug && make otapackage -j8;
     ;;
     *)
       echo "ERROR: Unknow option";
