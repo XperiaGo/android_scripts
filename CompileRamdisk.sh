@@ -12,25 +12,25 @@ if [[ $# = 1 ]]; then
       lunch cm_kumquat-eng && mka bootimage;
     ;;
     -ru)
-      lunch cm_kumquat-userdebug && mka bootimage;
+      lunch cm_kumquat-user && mka bootimage;
     ;;
     -p)
       lunch cm_nypon-eng && mka bootimage;
     ;;
     -rp)
-      lunch cm_nypon-userdebug && mka bootimage;
+      lunch cm_nypon-user && mka bootimage;
     ;;
     -s)
       lunch cm_pepper-eng && mka bootimage;
     ;;
     -rs)
-      lunch cm_pepper-userdebug && mka bootimage;
+      lunch cm_pepper-user && mka bootimage;
     ;;
     -g)
       lunch cm_lotus-eng && mka bootimage;
     ;;
     -rg)
-      lunch cm_lotus-userdebug && mka bootimage;
+      lunch cm_lotus-user && mka bootimage;
     ;;
     *)
       echo "ERROR: Unknow option";

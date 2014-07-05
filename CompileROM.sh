@@ -15,25 +15,25 @@ if [[ $# = 1 ]]; then
       lunch cm_kumquat-eng && mka otapackage;
     ;;
     -ru)
-      lunch cm_kumquat-userdebug && mka otapackage;
+      lunch cm_kumquat-user && mka otapackage;
     ;;
     -p)
       lunch cm_nypon-eng && mka otapackage;
     ;;
     -rp)
-      lunch cm_nypon-userdebug && mka otapackage;
+      lunch cm_nypon-user && mka otapackage;
     ;;
     -s)
       lunch cm_pepper-eng && mka otapackage;
     ;;
     -rs)
-      lunch cm_pepper-userdebug && mka otapackage;
+      lunch cm_pepper-user && mka otapackage;
     ;;
     -g)
       lunch cm_lotus-eng && mka otapackage;
     ;;
     -rg)
-      lunch cm_lotus-userdebug && mka otapackage;
+      lunch cm_lotus-user && mka otapackage;
     ;;
     *)
       echo "ERROR: Unknow option";
