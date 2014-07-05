@@ -9,28 +9,28 @@ if [[ $# = 1 ]]; then
     fi
     case $1 in
     -u)
-      lunch cm_kumquat-eng && make bootimage;
+      lunch cm_kumquat-eng && mka bootimage;
     ;;
     -ru)
-      lunch cm_kumquat-userdebug && make bootimage;
+      lunch cm_kumquat-userdebug && mka bootimage;
     ;;
     -p)
-      lunch cm_nypon-eng && make bootimage;
+      lunch cm_nypon-eng && mka bootimage;
     ;;
     -rp)
-      lunch cm_nypon-userdebug && make bootimage;
+      lunch cm_nypon-userdebug && mka bootimage;
     ;;
     -s)
-      lunch cm_pepper-eng && make bootimage;
+      lunch cm_pepper-eng && mka bootimage;
     ;;
     -rs)
-      lunch cm_pepper-userdebug && make bootimage;
+      lunch cm_pepper-userdebug && mka bootimage;
     ;;
     -g)
-      lunch cm_lotus-eng && make bootimage;
+      lunch cm_lotus-eng && mka bootimage;
     ;;
     -rg)
-      lunch cm_lotus-userdebug && make bootimage;
+      lunch cm_lotus-userdebug && mka bootimage;
     ;;
     *)
       echo "ERROR: Unknow option";
