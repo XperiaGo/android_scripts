@@ -5,7 +5,7 @@ Experimental CM-11.0 Builds for Xperia Novathor
 
 QuickStart:
 
-    git clone https://github.com/XperiaSTE/android_scripts.git -b exp/cm-11.0 cm-11-exp;
+    git clone https://github.com/XperiaSTE/android_scripts.git -b exp/cm-11 cm-11-exp;
     cd cm-11-exp;
     repo init -u git://github.com/CyanogenMod/android -b cm-11.0;
     ./Update.sh;
