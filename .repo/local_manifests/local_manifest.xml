@@ -30,8 +30,6 @@
   <remove-project name="CyanogenMod/android_system_vold" />
   <remove-project name="CyanogenMod/Superuser" />
   <remove-project name="CyanogenMod/android_vendor_cm" />
-  <remove-project name="platform/prebuilts/gcc/linux-x86/arm/arm-eabi-4.7" />
-  <remove-project name="platform/prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.7" />
 
   <project path="art" name="XperiaSTE/android_art" />
   <project path="bionic" name="XperiaSTE/android_bionic" />
