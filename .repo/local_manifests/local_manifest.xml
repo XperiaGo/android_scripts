@@ -56,7 +56,7 @@
   <project path="kernel/sony/u8500" name="XperiaSTE/android_kernel_sony_u8500" />
   <project path="packages/apps/Bluetooth" name="XperiaSTE/android_packages_apps_Bluetooth" />
   <project path="packages/apps/OpenDelta" name="XperiaSTE/android_packages_apps_OpenDelta" />
-  <project path="packages/apps/Settings" name="XperiaSTE/android_packages_apps_Settings" />
+  <project path="packages/apps/Settings" name="percy-g2/android_packages_apps_Settings" />
   <project path="packages/inputmethods/LatinIME" name="XperiaSTE/android_packages_inputmethods_LatinIME" />
   <project path="system/core" name="XperiaSTE/android_system_core" />
   <project path="system/media" name="XperiaSTE/android_system_media" />
