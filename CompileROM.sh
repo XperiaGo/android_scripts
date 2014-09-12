@@ -15,25 +15,25 @@ if [[ $# = 1 ]]; then
       lunch cm_kumquat-eng && mka otapackage;
     ;;
     -ru)
-      lunch cm_kumquat-user && mka otapackage;
+      lunch cm_kumquat-user && export DISABLE_DEXPREOPT=true && export WITH_DEXPREOPT=false && mka otapackage;
     ;;
     -p)
       lunch cm_nypon-eng && mka otapackage;
     ;;
     -rp)
-      lunch cm_nypon-user && mka otapackage;
+      lunch cm_nypon-user && export DISABLE_DEXPREOPT=true && export WITH_DEXPREOPT=false && mka otapackage;
     ;;
     -s)
       lunch cm_pepper-eng && mka otapackage;
     ;;
     -rs)
-      lunch cm_pepper-user && mka otapackage;
+      lunch cm_pepper-user && export DISABLE_DEXPREOPT=true && export WITH_DEXPREOPT=false && mka otapackage;
     ;;
     -g)
       lunch cm_lotus-eng && mka otapackage;
     ;;
     -rg)
-      lunch cm_lotus-user && mka otapackage;
+      lunch cm_lotus-user && export DISABLE_DEXPREOPT=true && export WITH_DEXPREOPT=false && mka otapackage;
     ;;
     *)
       echo "ERROR: Unknow option";
