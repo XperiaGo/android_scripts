@@ -17,9 +17,9 @@ QuickStart:
 
 OpenDelta Updater:
 
-	For OpenDelta Configurator: ./ODConfig.sh nextversionnumber; 
-	About the nextversionnumber you need to use future build version, not current build version.
-	If this build is 14, type 15 (./ODConfig.sh 15;) 
+	For OpenDelta Configurator: ./ODConfig.sh versionnumber; 
+	About the versionnumber you need to use current build version.
+	If you want to make the build 14 type 14 (./ODConfig.sh 14;) 
 
 Credits:
     
@@ -32,3 +32,4 @@ Credits:
     @XperiaNovathor: For maintaining repos of kumquat
     @Legacy-Xperia: For updated patches and device trees
     @XperiaSTE: Update and maintain CyanogenMod 11 for Xperia 2012
+    @HubDroid: For build server and OpenDelta system
