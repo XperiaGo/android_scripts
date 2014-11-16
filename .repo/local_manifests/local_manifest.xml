@@ -40,7 +40,7 @@
   <project path="device/sony/nypon" name="XperiaSTE/android_device_sony_nypon" revision="cm-11.0" />
   <project path="device/sony/pepper" name="XperiaSTE/android_device_sony_pepper" revision="cm-11.0" />
   <project path="device/sony/montblanc-common" name="XperiaSTE/android_device_sony_montblanc-common" />
-  <project path="external/bluetooth/bluez" name="XperiaSTE/android_external_bluetooth_bluez" />
+  <project path="external/bluetooth/bluez" name="XperiaSTE/android_external_bluetooth_bluez" revision="5.25" />
   <project path="external/bluetooth/glib" name="aosp-bluez.glib" remote="googlecode" revision="master" groups="pdk" />
   <project path="external/bluetooth/sbc" name="bluetooth/sbc" remote="kernel"     revision="master" groups="pdk" />
   <project path="external/valgrind" name="XperiaSTE/android_external_valgrind" />
@@ -51,7 +51,7 @@
   <project path="hardware/libhardware" name="XperiaSTE/android_hardware_libhardware" />
   <project path="hardware/libhardware_legacy" name="XperiaSTE/android_hardware_libhardware_legacy" />
   <project path="hardware/ste-sony" name="XperiaSTE/android_hardware_ste-sony" />
-  <project path="kernel/sony/u8500" name="XperiaSTE/android_kernel_sony_u8500" />
+  <project path="kernel/sony/u8500" name="XperiaSTE/android_kernel_sony_u8500" revision="cm-11.0" />
   <project path="packages/apps/Bluetooth" name="XperiaSTE/android_packages_apps_Bluetooth" />
   <project path="packages/apps/OpenDelta" name="XperiaSTE/android_packages_apps_OpenDelta" />
   <project path="packages/apps/Settings" name="XperiaSTE/android_packages_apps_Settings" />
