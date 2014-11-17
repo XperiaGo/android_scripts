@@ -28,6 +28,7 @@ out/
 prebuilt/
 sdk/
 vendor/
+Makefile
 
 #repo
 .repo/.directory
@@ -37,4 +38,4 @@ vendor/
 .repo/manifests/
 .repo/project.list
 .repo/projects/
-
+.repo/project-objects/
