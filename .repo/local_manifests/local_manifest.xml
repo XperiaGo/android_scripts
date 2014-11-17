@@ -25,6 +25,7 @@
   <remove-project name="CyanogenMod/android_packages_apps_CMUpdater" />
   <remove-project name="CyanogenMod/android_packages_apps_Settings" />
   <remove-project name="CyanogenMod/android_packages_inputmethods_LatinIME" />
+  <remove-project name="CyanogenMod/android_packages_services_Telephony" />
   <remove-project name="CyanogenMod/android_system_core" />
   <remove-project name="CyanogenMod/android_system_media" />
   <remove-project name="CyanogenMod/android_system_vold" />
@@ -56,6 +57,7 @@
   <project path="packages/apps/OpenDelta" name="XperiaSTE/android_packages_apps_OpenDelta" />
   <project path="packages/apps/Settings" name="XperiaSTE/android_packages_apps_Settings" />
   <project path="packages/inputmethods/LatinIME" name="XperiaSTE/android_packages_inputmethods_LatinIME" />
+  <project path="packages/services/Telephony" name="XperiaSTE/android_packages_services_Telephony" />
   <project path="system/core" name="XperiaSTE/android_system_core" />
   <project path="system/media" name="XperiaSTE/android_system_media" />
   <project path="system/vold" name="XperiaSTE/android_system_vold" />
