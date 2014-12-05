@@ -12,28 +12,28 @@ if [[ $# = 1 ]]; then
     fi
     case $1 in
     -u)
-      lunch cm_kumquat-eng && mka otapackage;
+      lunch cm_kumquat-eng && make -j8 otapackage;
     ;;
     -ru)
-      lunch cm_kumquat-user && export DISABLE_DEXPREOPT=true && export WITH_DEXPREOPT=false && mka otapackage;
+      lunch cm_kumquat-user && export DISABLE_DEXPREOPT=true && export WITH_DEXPREOPT=false && make -j8 otapackage;
     ;;
     -p)
-      lunch cm_nypon-eng && mka otapackage;
+      lunch cm_nypon-eng && make -j8 otapackage;
     ;;
     -rp)
-      lunch cm_nypon-user && export DISABLE_DEXPREOPT=true && export WITH_DEXPREOPT=false && mka otapackage;
+      lunch cm_nypon-user && export DISABLE_DEXPREOPT=true && export WITH_DEXPREOPT=false && make -j8 otapackage;
     ;;
     -s)
-      lunch cm_pepper-eng && mka otapackage;
+      lunch cm_pepper-eng && make -j8 otapackage;
     ;;
     -rs)
-      lunch cm_pepper-user && export DISABLE_DEXPREOPT=true && export WITH_DEXPREOPT=false && mka otapackage;
+      lunch cm_pepper-user && export DISABLE_DEXPREOPT=true && export WITH_DEXPREOPT=false && make -j8 otapackage;
     ;;
     -g)
-      lunch cm_lotus-eng && mka otapackage;
+      lunch cm_lotus-eng && make -j8 otapackage;
     ;;
     -rg)
-      lunch cm_lotus-user && export DISABLE_DEXPREOPT=true && export WITH_DEXPREOPT=false && mka otapackage;
+      lunch cm_lotus-user && export DISABLE_DEXPREOPT=true && export WITH_DEXPREOPT=false && make -j8 otapackage;
     ;;
     *)
       echo "ERROR: Unknow option";
