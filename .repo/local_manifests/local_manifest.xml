@@ -19,8 +19,6 @@
   <remove-project name="CyanogenMod/android_packages_apps_Settings" />
   <remove-project name="CyanogenMod/android_system_core" />
   <remove-project name="CyanogenMod/android_system_vold" />
-  <remove-project name="platform/prebuilts/gcc/linux-x86/arm/arm-eabi-4.7" />
-  <remove-project name="platform/prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.7" />
 
   <project path="bionic" name="XperiaSTE/android_bionic" />
   <project path="bootable/recovery" name="XperiaSTE/android_bootable_recovery" />
