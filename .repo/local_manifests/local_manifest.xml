@@ -10,6 +10,7 @@
   <remove-project name="CyanogenMod/android_bionic" />
   <remove-project name="CyanogenMod/android_bootable_recovery" />
   <remove-project name="CyanogenMod/android_external_bluetooth_bluedroid" />
+  <remove-project name="CyanogenMod/android_external_wpa_supplicant_8" />
   <remove-project name="CyanogenMod/android_external_icu" />
   <remove-project name="CyanogenMod/android_frameworks_av" />
   <remove-project name="CyanogenMod/android_frameworks_base" />
@@ -32,6 +33,7 @@
   <project path="device/sony/montblanc-common" name="XperiaSTE/android_device_sony_montblanc-common" />
   <project path="external/bluetooth/bluez" name="XperiaSTE/android_external_bluetooth_bluez" revision="5.27" />
   <project path="external/icu" name="XperiaSTE/android_external_icu" />
+  <project path="external/wpa_supplicant_8" name="XperiaSTE/android_external_wpa_supplicant_8" />
   <project path="external/bluetooth/glib" name="aosp-bluez.glib" remote="googlecode" revision="master" groups="pdk" />
   <project path="external/bluetooth/sbc" name="bluetooth/sbc" remote="kernel"     revision="master" groups="pdk" />
   <project path="frameworks/av" name="XperiaSTE/android_frameworks_av" />
