@@ -35,14 +35,14 @@
 
   <project path="art" name="XperiaSTE/android_art" />
   <project path="bionic" name="XperiaSTE/android_bionic" />
-  <project path="bootable/recovery" name="XperiaSTE/android_bootable_recovery" />
+  <project path="bootable/recovery" name="XperiaSTE/android_bootable_recovery" revision="cm-12.0" />
   <project path="build" name="XperiaSTE/android_build" > <copyfile src="core/root.mk" dest="Makefile" /> </project>
   <project path="device/sony/kumquat" name="XperiaSTE/android_device_sony_kumquat" />
   <project path="device/sony/lotus" name="XperiaSTE/android_device_sony_lotus" />
   <project path="device/sony/nypon" name="XperiaSTE/android_device_sony_nypon" />
   <project path="device/sony/pepper" name="XperiaSTE/android_device_sony_pepper" />
   <project path="device/sony/montblanc-common" name="XperiaSTE/android_device_sony_montblanc-common" />
-  <project path="external/bluetooth/bluez" name="XperiaSTE/android_external_bluetooth_bluez" revision="5.27" />
+  <project path="external/bluetooth/bluez" name="XperiaSTE/android_external_bluetooth_bluez" revision="5.23" />
   <project path="external/bluetooth/glib" name="aosp-bluez.glib" remote="googlecode" revision="master" groups="pdk" />
   <project path="external/bluetooth/sbc" name="bluetooth/sbc" remote="kernel"     revision="master" groups="pdk" />
   <project path="external/valgrind" name="XperiaSTE/android_external_valgrind" />
