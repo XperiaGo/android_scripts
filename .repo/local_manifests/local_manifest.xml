@@ -23,8 +23,7 @@
   <remove-project name="CyanogenMod/android_packages_apps_BluetoothExt" />
   <remove-project name="CyanogenMod/android_packages_apps_Settings" />
   <remove-project name="CyanogenMod/android_system_core" />
-  <remove-project name="CyanogenMod/android_system_vold" />
-
+  
   <project path="bionic" name="XperiaSTE/android_bionic" />
   <project path="build" name="XperiaSTE/android_build" > <copyfile src="core/root.mk" dest="Makefile" /> </project>
   <project path="bootable/recovery" name="XperiaSTE/android_bootable_recovery" />
@@ -48,6 +47,5 @@
   <project path="packages/apps/OpenDelta" name="XperiaSTE/android_packages_apps_OpenDelta" />
   <project path="packages/apps/Settings" name="XperiaSTE/android_packages_apps_Settings" />
   <project path="system/core" name="XperiaSTE/android_system_core" />
-  <project path="system/vold" name="XperiaSTE/android_system_vold" />
   <project path="vendor/sony" name="XperiaSTE/android_vendor_sony" />
 </manifest>
