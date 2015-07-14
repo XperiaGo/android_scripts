@@ -35,7 +35,7 @@
 
   <project path="art" name="XperiaSTE/android_art" />
   <project path="bionic" name="XperiaSTE/android_bionic" />
-  <project path="bootable/recovery" name="XperiaSTE/android_bootable_recovery" revision="cm-12.0" />
+  <project path="bootable/recovery" name="XperiaSTE/android_bootable_recovery" revision="cm-12.1" />
   <project path="build" name="XperiaSTE/android_build" > <copyfile src="core/root.mk" dest="Makefile" /> </project>
   <project path="device/sony/kumquat" name="XperiaSTE/android_device_sony_kumquat" />
   <project path="device/sony/lotus" name="XperiaSTE/android_device_sony_lotus" />
@@ -54,7 +54,7 @@
   <project path="hardware/libhardware_legacy" name="XperiaSTE/android_hardware_libhardware_legacy" />
   <project path="hardware/ste-sony" name="XperiaSTE/android_hardware_ste-sony" />
   <project path="kernel/sony/u8500" name="XperiaSTE/android_kernel_sony_u8500" />
-  <project path="packages/apps/Bluetooth" name="XperiaSTE/android_packages_apps_Bluetooth" />
+  <project path="packages/apps/Bluetooth" name="XperiaSTE/android_packages_apps_Bluetooth-1" />
   <project path="packages/apps/OpenDelta" name="XperiaSTE/android_packages_apps_OpenDelta" />
   <project path="packages/apps/Settings" name="XperiaSTE/android_packages_apps_Settings" />
   <project path="packages/inputmethods/LatinIME" name="XperiaSTE/android_packages_inputmethods_LatinIME" />
