@@ -23,6 +23,7 @@
   <remove-project name="CyanogenMod/android_packages_apps_BluetoothExt" />
   <remove-project name="CyanogenMod/android_packages_apps_Settings" />
   <remove-project name="CyanogenMod/android_system_core" />
+  <remove-project name="CyanogenMod/android_vendor_cm" />
   
   <project path="bionic" name="XperiaSTE/android_bionic" />
   <project path="build" name="XperiaSTE/android_build" > <copyfile src="core/root.mk" dest="Makefile" /> </project>
@@ -50,4 +51,5 @@
   <project path="packages/apps/Bluetooth" name="XperiaSTE/android_packages_apps_Bluetooth" />
   <project path="system/core" name="XperiaSTE/android_system_core" />
   <project path="vendor/sony" name="XperiaSTE/android_vendor_sony" />
+  <project path="vendor/cm" name="XperiaSTE/android_vendor_cm" />
 </manifest>
