@@ -21,6 +21,7 @@
   <remove-project name="CyanogenMod/android_packages_apps_CMUpdater" />
   <remove-project name="CyanogenMod/android_packages_apps_Bluetooth" />
   <remove-project name="CyanogenMod/android_packages_apps_BluetoothExt" />
+  <remove-project name="CyanogenMod/android_packages_apps_Eleven" />
   <remove-project name="CyanogenMod/android_packages_apps_Settings" />
   <remove-project name="CyanogenMod/android_packages_services_Telecomm" />
   <remove-project name="CyanogenMod/android_system_core" />
@@ -47,6 +48,7 @@
   <project path="hardware/ste-sony" name="XperiaSTE/android_hardware_ste-sony" />
   <project path="hardware/sony/DASH" name="XperiaSTE/android_hardware_sony_DASH" />
   <project path="kernel/sony/u8500" name="XperiaSTE/android_kernel_sony_u8500" />
+  <project path="packages/apps/Eleven" name="XperiaSTE/android_packages_apps_Eleven" />
   <project path="packages/apps/OpenDelta" name="XperiaSTE/android_packages_apps_OpenDelta" />
   <project path="packages/apps/Settings" name="XperiaSTE/android_packages_apps_Settings" />
   <project path="packages/apps/Bluetooth" name="XperiaSTE/android_packages_apps_Bluetooth" />
