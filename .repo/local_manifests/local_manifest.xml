@@ -35,7 +35,7 @@
   <project path="device/sony/nypon" name="XperiaSTE/android_device_sony_nypon" />
   <project path="device/sony/pepper" name="XperiaSTE/android_device_sony_pepper" />
   <project path="device/sony/montblanc-common" name="XperiaSTE/android_device_sony_montblanc-common" />
-  <project path="external/bluetooth/bluez" name="XperiaSTE/android_external_bluetooth_bluez" revision="5.35" />
+  <project path="external/bluetooth/bluez" name="XperiaSTE/android_external_bluetooth_bluez" revision="5.36" />
   <project path="external/icu" name="XperiaSTE/android_external_icu" />
   <project path="external/wpa_supplicant_8" name="XperiaSTE/android_external_wpa_supplicant_8" revision="android-5.1" />
   <project path="external/bluetooth/glib" name="aosp-bluez.glib" remote="googlecode" revision="master" groups="pdk" />
