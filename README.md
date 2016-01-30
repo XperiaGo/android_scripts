@@ -1,13 +1,13 @@
 android_scripts
 ===============
 
-Helpful scripts for build CM12
+Helpful scripts for build CM12.1
 
 QuickStart:
 
-    git clone https://github.com/XperiaSTE/android_scripts.git -b cm-12.0 xste;
+    git clone https://github.com/XperiaSTE/android_scripts.git -b cm-12.1 xste;
     cd xste;
-    repo init -u git://github.com/CyanogenMod/android -b cm-12.0;
+    repo init -u git://github.com/CyanogenMod/android -b cm-12.1;
     ./Update.sh;
     ./ODConfig.sh;
     ./CompileROM.sh -u; (Xperia U)
@@ -28,7 +28,7 @@ Credits:
     @percy-g2: Support and bugfix
     @Andrewas: Stable repository mantainer and support
     @AOSX: Port Android Open Source Project to Xperia 2012
-    @CyanogenMod: For CM-12
+    @CyanogenMod: For CM-12.1
     @XperiaNovathor: For maintaining repos of kumquat
     @Legacy-Xperia: For updated patches and device trees
     @XperiaSTE: Update and maintain CyanogenMod 11 for Xperia 2012
