@@ -31,5 +31,5 @@ Credits:
     @CyanogenMod: For CM-12.1
     @XperiaNovathor: For maintaining repos of kumquat
     @Legacy-Xperia: For updated patches and device trees
-    @XperiaSTE: Update and maintain CyanogenMod 11 for Xperia 2012
+    @XperiaSTE: Update and maintain CyanogenMod 11,CyanogenMod 12 and CyanogenMod 12.1 for Xperia 2012
     @HubDroid: For build server and OpenDelta system
