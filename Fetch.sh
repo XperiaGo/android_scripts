@@ -78,6 +78,12 @@ if [[ $response =~ ^(yes|y)$ ]]
 then
 for ((i = 0; i < $repos; i++)) 
 do
+# Exception
+if [[ ${path[i]} == bootable/recovery ]]; then
+branch="android-6.0"
+else
+branch="cm-12.1"
+fi
 echo "Changing ${path[i]} branch  to $branch"
 git -C ${path[i]} branch temp
 git -C ${path[i]} checkout temp
@@ -99,7 +105,7 @@ echo "Merging changes to ${path[i]}"
 # Exception
 if [[ ${path[i]} == bootable/recovery ]]; then
 remote="omnirom"
-branch="android-5.1"
+branch="android-6.0"
 else
 remote="CyanogenMod"
 branch="cm-12.1"
@@ -119,6 +125,12 @@ then
 
 for ((i = 0; i < $repos; i++)) 
 do
+# Exception
+if [[ ${path[i]} == bootable/recovery ]]; then
+branch="android-6.0"
+else
+branch="cm-12.1"
+fi
 echo "Pushing ${path[i]} changes"
 git="${gitstart}$(echo ${path[i]} | sed 's.\/._.g')${gitend}"
 git -C ${path[i]} push ${git} ${branch}
