@@ -46,7 +46,7 @@
   <project path="hardware/libhardware" name="XperiaSTE/android_hardware_libhardware" />
   <project path="hardware/libhardware_legacy" name="XperiaSTE/android_hardware_libhardware_legacy" />
   <project path="hardware/ste-sony" name="XperiaSTE/android_hardware_ste-sony" />
-  <project path="hardware/sony/DASH" name="XperiaSTE/android_hardware_sony_DASH" />
+  <project path="hardware/sony/DASH" name="XperiaSTE/android_hardware_sony_DASH" revision="cm-13.0" />
   <project path="kernel/sony/u8500" name="XperiaSTE/android_kernel_sony_u8500" />
   <project path="packages/apps/Eleven" name="XperiaSTE/android_packages_apps_Eleven" />
   <project path="packages/apps/OpenDelta" name="XperiaSTE/android_packages_apps_OpenDelta" />
