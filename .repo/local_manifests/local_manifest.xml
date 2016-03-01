@@ -29,7 +29,7 @@
   
   <project path="bionic" name="XperiaSTE/android_bionic" />
   <project path="build" name="XperiaSTE/android_build" > <copyfile src="core/root.mk" dest="Makefile" /> </project>
-  <project path="bootable/recovery" name="XperiaSTE/android_bootable_recovery" />
+  <project path="bootable/recovery" name="XperiaSTE/android_bootable_recovery" revision="android-6.0" />
   <project path="device/sony/kumquat" name="XperiaSTE/android_device_sony_kumquat" />
   <project path="device/sony/lotus" name="XperiaSTE/android_device_sony_lotus" />
   <project path="device/sony/nypon" name="XperiaSTE/android_device_sony_nypon" />
