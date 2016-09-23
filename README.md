@@ -5,7 +5,7 @@ Helpful scripts for build CM11
 
 QuickStart:
 
-    git clone https://github.com/XperiaSTE/android_scripts.git -b cm-11.0 xste;
+    git clone https://github.com/XperiaGo/android_scripts.git -b cm-11.0 xste;
     cd xste;
     repo init -u git://github.com/CyanogenMod/android -b cm-11.0;
     ./Update.sh;
