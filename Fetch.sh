@@ -5,7 +5,7 @@ remote="CyanogenMod"
 urlstart="https://github.com/CyanogenMod/android_"
 urlend=".git"
 gitstart="git@github.com:XperiaGo/android_"
-#gitstart="https://github.com/XperiaSTE/android_"
+#gitstart="https://github.com/XperiaGo/android_"
 gitend=".git"
 
 path=(
@@ -46,6 +46,9 @@ echo "Adding remote ${remote} to ${path[i]}"
 if [[ ${path[i]} == bootable/recovery ]]; then
 url="https://github.com/omnirom/android_bootable_recovery.git"
 remote="omnirom"
+elif [[ ${path[i]} == external/koush/Superuser ]]; then
+url="https://github.com/CyanogenMod/Superuser.git"
+remote="CyanogenMod"
 else
 # Generate url from $path
 url="${urlstart}$(echo ${path[i]} | sed 's.\/._.g')${urlend}"
@@ -134,7 +137,12 @@ else
 branch="cm-11.0"
 fi
 echo "Pushing ${path[i]} changes"
+# Exception
+if [[ ${path[i]} == external/koush/Superuser ]]; then
+git="git@github.com:XperiaGo/Superuser.git"
+else
 git="${gitstart}$(echo ${path[i]} | sed 's.\/._.g')${gitend}"
+fi
 git -C ${path[i]} push ${git} ${branch}
 done
 fi
