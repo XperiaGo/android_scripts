@@ -50,7 +50,7 @@
   <project path="hardware/libhardware_legacy" name="XperiaGo/android_hardware_libhardware_legacy" />
   <project path="hardware/ste-sony" name="XperiaGo/android_hardware_ste-sony" />
   <project path="kernel/sony/u8500" name="XperiaGo/android_kernel_sony_u8500" />
-  <project path="packages/apps/Bluetooth" name="XperiaGo/android_packages_apps_Bluetooth-1" />
+  <project path="packages/apps/Bluetooth" name="XperiaGo/android_packages_apps_Bluetooth" />
   <project path="packages/apps/Settings" name="XperiaGo/android_packages_apps_Settings" />
   <project path="packages/inputmethods/LatinIME" name="XperiaGo/android_packages_inputmethods_LatinIME" />
   <project path="system/core" name="XperiaGo/android_system_core" />
