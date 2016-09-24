@@ -1,6 +1,8 @@
 #Get prebuilts
-echo "Getting prebuilts..."
-cd vendor/cm && ./get-prebuilts && cd ../..
+if [[ "$1" == "-p" ]]; then
+  echo "Getting prebuilts..."
+  cd vendor/cm && ./get-prebuilts && cd ../..
+fi
 
 # Version 
 VERSION="-build1"
