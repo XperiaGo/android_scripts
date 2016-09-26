@@ -7,6 +7,7 @@ urlend=".git"
 gitstart="git@github.com:XperiaGo/android_"
 #gitstart="https://github.com/XperiaGo/android_"
 gitend=".git"
+twrpbranch="android-6.0"
 
 path=(
 art
@@ -85,7 +86,7 @@ for ((i = 0; i < $repos; i++))
 do
 # Exception
 if [[ ${path[i]} == bootable/recovery ]]; then
-branch="android-7.0"
+branch=$twrpbranch
 else
 branch="cm-11.0"
 fi
@@ -110,7 +111,7 @@ echo "Merging changes to ${path[i]}"
 # Exception
 if [[ ${path[i]} == bootable/recovery ]]; then
 remote="omnirom"
-branch="android-7.0"
+branch=$twrpbranch
 else
 remote="CyanogenMod"
 branch="cm-11.0"
@@ -132,7 +133,7 @@ for ((i = 0; i < $repos; i++))
 do
 # Exception
 if [[ ${path[i]} == bootable/recovery ]]; then
-branch="android-7.0"
+branch=$twrpbranch
 else
 branch="cm-11.0"
 fi

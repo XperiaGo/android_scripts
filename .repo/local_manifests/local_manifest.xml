@@ -34,7 +34,7 @@
 
   <project path="art" name="XperiaGo/android_art" />
   <project path="bionic" name="XperiaGo/android_bionic" />
-  <project path="bootable/recovery" name="XperiaGo/android_bootable_recovery" revision="android-7.0" />
+  <project path="bootable/recovery" name="XperiaGo/android_bootable_recovery" revision="android-6.0" />
   <project path="build" name="XperiaGo/android_build" > <copyfile src="core/root.mk" dest="Makefile" /> </project>
   <project path="device/sony/lotus" name="XperiaGo/android_device_sony_lotus" />
   <project path="device/sony/montblanc-common" name="XperiaGo/android_device_sony_montblanc-common" />
