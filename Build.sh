@@ -1,6 +1,7 @@
 #!/bin/bash
 
-VERSION="-build3"
+VERSION="-build4"
+CCASHE=true
 
 # Help
 if [[ "$*" == "-"* ]] && [[ "$*" == *"h"* ]]; then
@@ -30,6 +31,13 @@ fi
 if [[ "$*" == "-"* ]] && [[ "$*" == *"p"* ]]; then
   echo "Getting prebuilts..."
   cd vendor/cm && ./get-prebuilts && cd ../..
+fi
+
+# Ccache
+if [[ "$CCASHE" == "true" ]]; then
+  export USE_CCACHE=1
+  export CCACHE_DIR=/srv/ccache/cm11.0/
+  prebuilts/misc/linux-x86/ccache/ccache -M 30G
 fi
 
 # Version
