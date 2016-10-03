@@ -1,6 +1,6 @@
 #!/bin/bash
 
-VERSION="-build4"
+VERSION="-$(date -u +%Y%m%d)"
 CCASHE=true
 
 # Help
