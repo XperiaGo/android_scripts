@@ -36,7 +36,7 @@ fi
 # Ccache
 if [[ "$CCASHE" == "true" ]]; then
   export USE_CCACHE=1
-  export CCACHE_DIR=/srv/ccache/cm11.0/
+  export CCACHE_DIR=$(realpath ../ccashe)
   prebuilts/misc/linux-x86/ccache/ccache -M 30G
 fi
 
