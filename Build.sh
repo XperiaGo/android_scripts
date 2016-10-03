@@ -28,7 +28,7 @@ if [[ "$*" == "-"* ]] && [[ "$*" == *"c"* ]]; then
 fi
 
 #Get prebuilts
-if [[ "$*" == "-"* ]] && [[ "$*" == *"p"* ]]; then
+if [[ "$*" == "-"* ]] && [[ "$*" == *"p"* ]] || [ ! -f vendor/cm/proprietary/Term.apk ]; then
   echo "Getting prebuilts..."
   cd vendor/cm && ./get-prebuilts && cd ../..
 fi
@@ -37,7 +37,7 @@ fi
 if [[ "$CCASHE" == "true" ]]; then
   export USE_CCACHE=1
   export CCACHE_DIR=$(realpath ../ccashe)
-  prebuilts/misc/linux-x86/ccache/ccache -M 30G
+  prebuilts/misc/linux-x86/ccache/ccache -M 10G
 fi
 
 # Version
