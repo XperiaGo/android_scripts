@@ -36,7 +36,7 @@
   <project path="build" name="XperiaGo/android_build" > <copyfile src="core/root.mk" dest="Makefile" /> </project>
   <project path="device/sony/lotus" name="XperiaGo/android_device_sony_lotus" />
   <project path="device/sony/montblanc-common" name="XperiaGo/android_device_sony_montblanc-common" />
-  <project path="external/bluetooth/bluez" name="XperiaGo/android_external_bluetooth_bluez" revision="5.42" />
+  <project path="external/bluetooth/bluez" name="XperiaGo/android_external_bluetooth_bluez" revision="5.43" />
   <project path="external/bluetooth/glib" name="XperiaGo/android_external_bluetooth_glib" revision="master" />
   <project path="external/bluetooth/sbc" name="bluetooth/sbc" remote="kernel" revision="master" groups="pdk" />
   <project path="external/valgrind" name="XperiaGo/android_external_valgrind" />
