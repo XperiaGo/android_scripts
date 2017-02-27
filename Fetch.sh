@@ -1,11 +1,11 @@
 #! /bin/bash
 
 branch="cm-11.0"
-remote="CyanogenMod"
+remote="LineageOS"
 twrpbranch="android-6.0"
 twrpremote="omnirom"
 twrpurl="https://github.com/omnirom/android_bootable_recovery.git"
-urlstart="https://github.com/CyanogenMod/android_"
+urlstart="https://github.com/LineageOS/android_"
 urlend=".git"
 gitstart="git@github.com:XperiaGo/android_"
 #gitstart="https://github.com/XperiaGo/android_"

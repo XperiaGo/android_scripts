@@ -7,7 +7,7 @@ QuickStart:
 
     git clone https://github.com/XperiaGo/android_scripts.git -b cm-11.0 xste;
     cd xste;
-    repo init -u git://github.com/CyanogenMod/android -b cm-11.0;
+    repo init -u git://github.com/LineageOS/android.git -b cm-11.0;
     ./Update.sh;
     ./ODConfig.sh;
     ./CompileROM.sh -u; (Xperia U)

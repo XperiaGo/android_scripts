@@ -1,6 +1,6 @@
 #!/bin/bash
 
-CM="cm-11.0"
+CM="lineage-11.0"
 VERSION="-$(date -u +%Y%m%d)"
 CCASHE=true
 
